@@ -4,7 +4,7 @@ class Problem3
     result = 2
     while number > 1
       for factor in (result .. number)
-        if number%f == 0
+        if number%factor == 0
           result = factor
           while number%factor == 0
             number = number/factor
